@@ -62,9 +62,9 @@ def signup_for_activity(activity_name: str, email: str):
     # Get the specific activity
     activity = activities[activity_name]
 
-    # Prevent duplicate registrations
-    if email in activity.get("participants", []):
-        raise HTTPException(status_code=400, detail="Student already registered for this activity")
+    # Validate student is not already signed up
+    if email in activity["participants"]:
+      raise HTTPException(status_code=400, detail="Student is already signed up")
 
     # Enforce max participants
     max_p = activity.get("max_participants")
