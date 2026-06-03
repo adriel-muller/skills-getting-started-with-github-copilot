@@ -14,3 +14,18 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
+## accelerate-with-copilot — Inicialização
+
+Esta branch foi criada para agrupar melhorias e experimentos acelerados pelo GitHub Copilot.
+
+- Objetivo inicial: preparar o espaço para protótipos e automações rápidas.
+- Arquivo de referência: plano e pequenas tasks serão adicionados nesta branch.
+
+Primeiros passos sugeridos:
+
+- Adicionar testes básicos e um endpoint de health-check.
+- Configurar CI simples (GitHub Actions) para rodar lint/tests.
+- Prototipar integração de sugestões assistidas por Copilot.
+
+Veja o pull request aberto: https://github.com/adriel-muller/skills-getting-started-with-github-copilot/pull/2
+
